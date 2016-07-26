@@ -8,8 +8,6 @@ GIS, 硕士研究生
 
 <div id="webaddress">
 <i class="fa fa-envelope"></i> <a href="mailto:aibb@lreis.ac.cn">aibb@lreis.ac.cn</a>
-|
-<i class="fa fa-archive"></i> <a href="http://www.researcherid.com/rid/M-6729-2015">ResearcherID</a>
 
 </div>
 
