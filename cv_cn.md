@@ -7,7 +7,7 @@ title: "Beibei Ai's CV"
 GIS, 硕士研究生
 
 <div id="webaddress">
-<i class="fa fa-envelope"></i> <a href="mailto:aibb@lreis.ac.cn">aibb@lreis.ac.cn</a>
+  <i class="fa fa-envelope"></i> <a href="mailto:aibb@lreis.ac.cn">aibb@lreis.ac.cn</a>
 
 </div>
 
