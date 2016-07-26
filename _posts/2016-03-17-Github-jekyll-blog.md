@@ -3,7 +3,7 @@ layout: post
 title: "Using Github and jekyll to build your personal blog like this"
 category: [Others]
 tag: [Github, jekyll, Toturial]
-date: 2016-03-17 15:00:00
+date: 2016-07-26 15:00:00
 comments: true
 ---
 
@@ -11,6 +11,8 @@ comments: true
 
 References:
 ======
+
+- Reprinted from http://zhulj.net/others/2016/03/17/Github-jekyll-blog.html and has been slightly modified.
 
 - http://beiyuu.com/github-pages/
 
@@ -31,25 +33,25 @@ Step by step:
 		+ Type the following code
 		
 				@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
-
-		+ Close the command prompt as Chocolatey will not be available until you close and reopen it
+	+ Close the command prompt as Chocolatey will not be available until you close and reopen it
 	+ 1.2 Install dependencies & Jekyll
 		+ Open a command prompt with Administrator access
 		+ choco install ruby -y
 		+ reopen command prompt with Administrator access and type:
 			
 				gem sources --add http://gems.ruby-china.org/ --remove https://rubygems.org/
+				( or: gem sources --add https://ruby.taobao.org/ --remove https://rubygems.org/)
 				gem install jekyll
 
 	+ 1.3 other packages
 
-		+ download and install DevKit (refers to https://github.com/oneclick/rubyinstaller/wiki/Development-Kit)
+		+ download and install DevKit (refers to https://github.com/oneclick/rubyinstaller/wiki/Development-Kit)(eg. download and directly install DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe )
 		+ open command prompt with Administrator access and type:
 			
 				gem install wdm jekyll-paginate kramdown coderay rouge
 
 2. **Build a blog follow the jekyll**
-	+ 2.1 Fork a jekyll theme such as https://github.com/streetturtle/jekyll-clean-dark
+	+ 2.1 Fork a jekyll theme such as " https://github.com/crazyzlj/crazyzlj.github.io "
 	+ 2.2 rename the repository as `yourname.github.io`
 	+ 2.3 Open git bash and type:
 
