@@ -10,7 +10,7 @@ comments: true
 References:
 ======
 
-http://www.cnblogs.com/MuyouSome/archive/2013/05/31/3109487.html
+<a href="http://www.cnblogs.com/MuyouSome/archive/2013/05/31/3109487.html">http://www.cnblogs.com/MuyouSome/archive/2013/05/31/3109487.html</a>
 
 (转)并行计算、分布式计算、集群计算和云计算
 ======
