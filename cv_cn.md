@@ -19,6 +19,8 @@ GIS, 硕士研究生
 
 ## 学术成果
 
+Qin C-Z, Ai B-B, Zhu A-X, Liu J-Z. An efficient method for applying a differential equation to deriving the spatial distribution of specific catchment area from gridded digital elevation models. Computers & Geosciences, 2017, 100: 94-102. doi: 10.1016/j.cageo.2016.12.009.(SCI)
+
 艾贝贝,秦承志,朱阿兴. 栅格地理计算并行算子对区域计算算法并行化的可用性分析——以多流向算法为例[J]. 地球信息科学学报,2015,05:562-567.
 
 孙芙蕊,艾贝贝,赵雯华等. 某高校GIS毕业生来源地与去向地的空间关联模式[J]. 测绘地理信息,2015,01:87-90.
@@ -27,5 +29,7 @@ GIS, 硕士研究生
 
 ## 会议
 `2014年10月` 栅格地理计算并行算子对区域计算算法并行化的可用性研究. *2014年中国地理学年会*. （优秀论文）
+`2016年7月` Development of a dataset of supply relationship between glaciers and lakes on Tibetan Plateau. *第17届国际空间数据处理研讨会*. （口头报告）
 
-`最近更新：2016年7月`
+
+`最近更新：2017年2月`
