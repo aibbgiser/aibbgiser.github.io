@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="sidebar well">
 <h1>Introduction</h1>
 {{ site.description }}
@@ -45,3 +46,52 @@ About GIS, parallel-Geocompution, and Digital terrain analysis...
 {% include links-list.html %}
 </div>
 <script type="text/javascript" id="clustrmaps" src=""></script>
+=======
+<div class="sidebar well">
+<h1>Introduction</h1>
+{{ site.description }}
+<br>
+About GIS, parallel-Geocompution, and Digital terrain analysis...
+<h1>Follow me</h1>
+{% for link in site.follow %}
+	<a href="{{ link.url }}" target="_blank"><i class="{{ link.class }}"></i></a>
+{% endfor %}
+</div>
+<div class="sidebar well">
+    <h1>Categories</h1>
+{% for category in site.categories %}
+	<a href="/categories/#{{ category | first }}" style="font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size | plus: 95}}%">
+            {{ category | first }}&nbsp;&nbsp;
+    </a>
+<!--<a href="/categories/#{{category | first}} "><h1>--{{ category | first }}(<b>{{ category | last | size }}</b>)</h1></a>
+<ul class="arc-list">
+    {% for post in category.last limit:2 %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+-->
+{% endfor %}
+</div>
+<div class="sidebar well">
+    <h1>Tags</h1>
+	{% for tag in site.tags %}
+        <a href="/tags/#{{ tag | first }}" style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 95}}%">
+            {{ tag | first }}&nbsp;&nbsp;
+        </a>
+	{% endfor %}
+</div>
+<!--
+<div class="sidebar well">
+    <h1>Recent Blogs</h1>
+    <ul>
+        {% for post in site.posts limit:5 %}
+          <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a><br>
+        {% endfor %}
+    </ul>
+</div>
+-->
+<div class="sidebar well">
+{% include links-list.html %}
+</div>
+<script type="text/javascript" id="clustrmaps" src=""></script>
+>>>>>>> 74737f1b26159d6a07e9c914110461c0d17127d0
